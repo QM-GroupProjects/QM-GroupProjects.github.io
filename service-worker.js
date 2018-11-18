@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/takemebythehand-react/precache-manifest.32561681a8ceeeff9039c4c6ab8c48b2.js"
+  "/takemebythehand-react/public/precache-manifest.28393c249803d68d5a7030347fc795ba.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/takemebythehand-react/index.html", {
+workbox.routing.registerNavigationRoute("/takemebythehand-react/public/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
