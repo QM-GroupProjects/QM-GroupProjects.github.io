@@ -2,7 +2,7 @@
   "name": "takemyhand",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://qm-groupprojects.github.io/",
+  "homepage":"https://QM-GroupProjects.github.io/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
